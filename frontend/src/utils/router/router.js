@@ -1,5 +1,6 @@
 const routes = {
     Home : '/',
+    AddPassword : 'add-password',
     Login : '/login',
     Signup : '/register',
     Favorites : '/favorites',

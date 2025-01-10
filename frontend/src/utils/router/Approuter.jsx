@@ -6,6 +6,7 @@ import Dashboard from "../../pages/Dashboard";
 
 import routes from "./router";
 import SidebarLayout from "../../Layouts/SidebarLayout";
+import AddPassword from "../../pages/AddPassword";
 
 const AppRouter = () => {
   return (
@@ -13,6 +14,7 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<SidebarLayout />}>
           <Route path="" element={<Dashboard />} />
+          <Route path="/add-password" element={<AddPassword />} />
         </Route>
           <Route path={routes.Login} element={<Login />} />
           <Route path={routes.Signup} element={<Signup />} />
